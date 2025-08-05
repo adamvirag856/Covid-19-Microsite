@@ -1,8 +1,3 @@
-function toggleMessage() {
-  const msg = document.getElementById('message');
-  msg.style.display = msg.style.display === 'none' ? 'block' : 'none';
-}
-
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('feedbackForm');
   const modal = new bootstrap.Modal(document.getElementById('thankYouModal'));
